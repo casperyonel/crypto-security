@@ -75,8 +75,7 @@ function createUserCard(data) {
     userCard.innerHTML = `<p class="username">Username: ${data.username}</p>
     <p class="email">Email: ${data.email}</p>
     <p class="first-name">First Name: ${data.firstName}</p>
-    <p class="last-name">Last Name: ${data.lastName}</p>
-    `
+    <p class="last-name">Last Name: ${data.lastName}</p>`
 
 
     userContainer.appendChild(userCard)
